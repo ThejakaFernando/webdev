@@ -1,0 +1,133 @@
+* {
+    color: red;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+
+}
+
+p {
+    background-color:rgb(114,92,173);
+    color: whitesmoke;
+}
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+h1,h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(158,138,158);
+    color: black;
+    padding: 5px;
+}
+
+#facts {
+    color: red;
+}
+
+#mainNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #acadee;
+    width: 250px;
+}
+
+#mainNav li {
+    padding: 0.Sem;
+    border: 1px rgb(240, 240, 240) solid;
+
+}
+
+#mainNav a {
+    min-height: 50px;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+p:hover, a:hover {
+    background-color: yellow;
+}
+
+a:visited {
+    color:green;
+}
+
+a:link {
+    color: blue;
+}
+
+li a:hover {
+    background-color: rgb(73, 2, 140)
+    color: rgb(73, 2, 145)
+}
+
+#facts p:nth-of-type(3) {
+    background-color: hotpink;
+    color:black
+}
+
+#myIngredients li:nth-of-type(odd) {
+    background-color: hotpink;
+    color: black;
+}
+
+#myIngredients li:nth-of-type(even) {
+    color: hotpink;
+    background-color: black;
+}
+
+#mainHeader {
+    height:100px;
+    padding:1em;
+    background:black url(images/logo.png) no-repeat 1em center;
+    }
+h1 {
+margin:0;
+    font-family:Helvetica, Tahoma, sans-serif;
+    color:hotpink;
+    padding:35px 0px 35px 100px;
+    }
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid hotpink;
+    max-width: 600px;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+tfoot td {
+    text-align: left;
+}
+
+thead, tfoot {
+    background: hotpink;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+}
+
+tr:nth-of-type(2n) {
+    background: rgb(240,172,206)
+}
+
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightblue;
+    } 
+}
